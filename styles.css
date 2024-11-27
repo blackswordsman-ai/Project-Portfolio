@@ -1,0 +1,210 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+
+  }
+  
+  .site-title {
+    text-align: center;
+    font-size: 1.8em;
+  }
+  
+  .navbar {
+    text-align: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: inline-block;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  .discription{
+    line-height: 1.8;
+    text-transform: capitalize;
+  }
+  
+
+  .hero {
+    background: url(https://www.bsr.org/images/jcogs/cache/03_07-three-changes-for-women-2019-iwd-blog-hero_-_28de80_-_abe2eb138c8e6d827e220418a09e903026804d11.jpg) center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    background: none;
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #312b31, 0 0 20px #312b31, 0 0 40px #ff00ff;
+    transition: text-shadow 0.3s ease-in-out
+  }
+  .hero-text:hover{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #322232, 0 0 30px #453f3f, 0 0 40px #ff00ff;
+    transition: text-shadow 0.5s ease-in-out
+  }
+  
+
+.services {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  .service-card p {
+    font-size: 1em;
+    padding: 0 15px 15px;
+    color: #555;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #f4f4f4;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #ddd;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #777;
+  }
+  
+  .submit-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  ul li a{
+    scroll-behavior:3s;
+  }
+  
